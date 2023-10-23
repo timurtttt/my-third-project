@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed&family=Caveat:wght@700&family=Courgette&family=Edu+NSW+ACT+Foundation&family=Fuggles&family=Lilita+One&family=Lobster&family=Manrope:wght@200;400&family=Noto+Sans+Linear+B&family=Noto+Sans+NKo+Unjoined&family=Nova+Mono&family=Open+Sans:wght@300&family=Playfair+Display:wght@400;800&family=Poppins:wght@500&family=Roboto:wght@100&family=Satisfy&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+  background-color: rgb(1, 15, 25);
+}
+
+a {
+  text-decoration: none;
+}
+
+.btns-control {
+  background-color: #3a68b8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* header */
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 30px;
+}
+
+.navigation a {
+  color: white;
+}
+
+.header-btn {
+  width: 112px;
+  height: 47px;
+  padding-top: 5px;
+}
+
+/* section1 */
+
+.content-control1 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.description-control {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.change-color {
+  color: #3a68b8;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.project-name {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.lorem {
+  color: rgb(166, 166, 166);
+  font-size: 15px;
+}
+
+.lorem-margin {
+  margin-top: 30px;}
+  .lorem-margin button:hover{
+transform: scale(0.8px);
+  }
+
+.btn-control:hover {
+  transform: scale(0.8px);
+}
+
+.get-started {
+  width: 172px;
+  height: 57px;
+}
+
+.watch-video {
+  width: 217px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-control {
+  display: flex;
+  gap: 20px;
+}
+
+.images-control {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+/* section2 */
+
+.learn-more {
+  width: 150px;
+  height: 52px;
+  margin-top: 50px;
+}
+.images {
+  width: 550px;
+  height: 500px;
+}
